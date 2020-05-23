@@ -1,22 +1,183 @@
 body {
     background-color: black;
-    color: rgb(231, 60, 253);
-    width: 80%;
-    margin: auto;
+    color: white;
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 48px;
+    font-size: 42px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(231, 60, 253);
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .container {
     display: flex;
-    height: 100vh;
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-content: center; */
-    /* margin: auto; */
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container>div {
+    flex: 0 50%;
+    margin-bottom: 1em;
 }
 
 .text {
-    height: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.introtext {
+    width: 100%;
+}
+
+.subtext {
+    font-size: 0.7em;
+    width: 100%;
+}
+
+.picture {
     margin: auto;
+}
+
+.picture_text {
+    font-size: 0.7em;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+
+#me {
+    width: 200px;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.meat {
+    height: 100%;
+    font-size: 0.7em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work,
+.cv {
+    width: 100%;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_text {
+    width: 100%;
+    font-size: 0.7em;
+}
+
+.social_icons {
+    margin-top: 0.5em;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    /* height: 50px; */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-linkedin {
+    background: #0e76a8;
+}
+
+.fa-instagram {
+    background: #cd486b;
+}
+
+.email {
+    margin-top: 1em;
+    flex: 1 100%;
+}
+
+
+/* Medium Screens */
+
+@media all and (max-width: 800px) {
+    .container {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .picture {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* margin: auto; */
+        width: 100%;
+    }
+    #me {
+        margin: auto;
+    }
+    a {
+        text-decoration: underline;
+    }
+    .container>div {
+        flex: 0 50%;
+        margin-bottom: 1.6em;
+    }
+    .wrapper {
+        display: block;
+    }
+}
+
+
+/* Small screens */
+
+@media all and (max-width: 500px) {
+    body {
+        font-size: 1.5em;
+    }
 }
