@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: rgb(231, 60, 253);
+    width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 48px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-content: center; */
+    /* margin: auto; */
+}
+
+.text {
+    height: 100px;
+    margin: auto;
+}
