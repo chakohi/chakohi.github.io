@@ -78,14 +78,15 @@
 
 .contact-container {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 30%;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 .socials {
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
 }
