@@ -1,5 +1,10 @@
+var slider = document.getElementById("slider");
+
 document.onscroll = function() {
-    scrollTop = window.pageYOffset;
+    scrollTop = window.scrollY;
+    if (scrollTop === undefined) {
+        scrolltop = window.pageYOffset;
+    }
     allDivs = document.getElementsByClassName('section-divider');
     for (i = 0; i < allDivs.length; i++) {
         curDiv = allDivs[i];
@@ -17,7 +22,7 @@ document.onscroll = function() {
 
 var loc = window.location.pathname;
 var dir = loc.substring(0, loc.lastIndexOf('/'));
-if (screen.width <= 699) {
-    let phoneDir = dir + "/m/index.html";
-    document.location = phoneDir;
+if (screen.width > 699) {
+    let desktopDir = dir.slice(0, -1) + "index.html";
+    document.location = desktopDir;
 }
