@@ -16,7 +16,7 @@
 }
 
 .name>h1.title {
-    font-size: 8rem;
+    font-size: 5rem;
 }
 
 .name>h2.subtitle {
@@ -45,9 +45,9 @@
     flex-direction: column;
 }
 
-.info a {
+.cv-container a {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .cv-container {
@@ -60,8 +60,12 @@
 .cv,
 .portfolio {
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     margin: auto;
+}
+
+.cv {
+    margin-top: 0;
 }
 
 .contact {
@@ -72,9 +76,10 @@
     /* text-align: left; */
 }
 
-.contact a {
+.contact-container a {
     color: white;
     font-weight: 300;
+    font-size: 1.5rem;
 }
 
 .contact-container {
@@ -85,7 +90,6 @@
     /* text-align: left; */
     width: 60%;
     margin: auto;
-    font-size: 2rem;
 }
 
 .number,
@@ -97,7 +101,7 @@
 }
 
 .contact-container img {
-    width: 40%;
+    width: 30%;
     margin-bottom: 1rem;
 }
 
@@ -172,14 +176,14 @@ h2.subtitle {
 
 p {
     line-height: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .arrow {
     border: solid black;
     border-width: 0 2px 2px 0;
     display: inline-block;
-    padding: 30px;
+    padding: 10px;
 }
 
 .arrow:hover {
