@@ -20,9 +20,9 @@ document.onscroll = function() {
     }
 };
 
-var loc = window.location.pathname;
-var dir = loc.substring(0, loc.lastIndexOf('/'));
-if (screen.width > 699) {
-    let desktopDir = dir.slice(0, -1) + "index.html";
-    document.location = desktopDir;
-}
+// var loc = window.location.pathname;
+// var dir = loc.substring(0, loc.lastIndexOf('/'));
+// if (screen.width > 699) {
+//     let desktopDir = dir.slice(0, -1) + "index.html";
+//     document.location = desktopDir;
+// }

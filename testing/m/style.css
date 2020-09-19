@@ -84,7 +84,7 @@
 
 .contact-container {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 80%;
     align-items: center;
     /* text-align: left; */
@@ -95,14 +95,48 @@
 .number,
 .twitter,
 .email {
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .contact-container img {
-    width: 30%;
+    height: 30%;
     margin-bottom: 1rem;
+}
+
+
+/* landscape */
+
+@media screen and (min-aspect-ratio: 13/9) {
+    .number,
+    .twitter,
+    .email {}
+    .contact-container {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .contact-container img {
+        width: 50px;
+        margin-bottom: 1rem;
+        height: auto;
+    }
+    .cv-container {
+        flex-direction: row;
+    }
+    .cv,
+    .portfolio {
+        flex-direction: column;
+        width: 100px;
+        margin: auto;
+    }
+    a.down {
+        margin-bottom: 20px;
+    }
+    a.up {
+        margin-top: 20px;
+    }
 }
 
 
@@ -213,7 +247,7 @@ p {
 }
 
 .up {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .up>i {
@@ -222,7 +256,7 @@ p {
 }
 
 .down {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .down>i {
@@ -235,6 +269,6 @@ p {
 }
 
 .limit-width {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
