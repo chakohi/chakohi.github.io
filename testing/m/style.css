@@ -3,6 +3,11 @@
     flex-direction: column;
 }
 
+.name-container .arrow {
+    border: solid #B2247E;
+    border-width: 0 2px 2px 0;
+}
+
 .name {
     flex-direction: column;
     text-align: center;
@@ -43,6 +48,16 @@
 
 .info {
     flex-direction: column;
+}
+
+.info>.up>.arrow {
+    border: solid #B2247E;
+    border-width: 0 2px 2px 0;
+}
+
+.info>.down>.arrow {
+    border: solid #04724D;
+    border-width: 0 2px 2px 0;
 }
 
 .cv-container a {
