@@ -75,7 +75,18 @@
 .cv,
 .portfolio {
     flex-direction: column;
-    width: 20%;
+    width: 30%;
+}
+
+.cv img,
+.portfolio img {
+    width: 80%;
+    margin: auto;
+}
+
+.cv a,
+.portfolio a {
+    margin-bottom: 1rem;
 }
 
 .contact {
