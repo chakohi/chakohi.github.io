@@ -16,7 +16,6 @@ document.onscroll = function() {
             color = curDiv.getAttribute("data-color");
             document.body.style.backgroundColor = color;
         }
-
     }
 };
 
