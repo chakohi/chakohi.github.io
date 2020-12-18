@@ -90,25 +90,25 @@ function draw() {
         textAlign(CENTER,CENTER);
         textSize(80);
         fill(255);
-        text("Damn dude. Leave some", windowWidth/2, windowHeight/2 - 100);
-        text("cake for the rest of us", windowWidth/2, windowHeight/2);
+        text("Damn dude. Leave some", windowWidth/2, windowHeight/2);
+        text("cake for the rest of us", windowWidth/2, windowHeight/2+100);
         textSize(64);
         fill(255, 198, 153);
-        text("Happy Birthday from ur", windowWidth/2, windowHeight/2 + 200);
-        text("Qowboys", windowWidth/2, windowHeight/2 + 300);
+        text("Happy Birthday from ur", windowWidth/2, windowHeight/2 + 300);
+        text("Qowboys", windowWidth/2, windowHeight/2 + 400);
         fill(255);
 
         imageMode(CENTER);
         angleMode(DEGREES);
 
-        adham = [windowWidth/2 - 405, windowHeight/2 - 800];
-        nada = [windowWidth/2 + 100, windowHeight/2 - 500];
-        sadaf = [windowWidth/2, windowHeight/2 - 700];
-        michael = [windowWidth/2 + 300, windowHeight/2 - 580];
-        tala = [windowWidth/2 + 200, windowHeight/2 - 750];
-        lateefa = [windowWidth/2 - 300, windowHeight/2 - 550];
-        alia = [windowWidth/2 - 200, windowHeight/2 - 750];
-        yousra = [windowWidth/2 - 100, windowHeight/2 - 500];
+        adham = [windowWidth/2 - 405, windowHeight/2 - 700];
+        nada = [windowWidth/2 + 100, windowHeight/2 - 400];
+        sadaf = [windowWidth/2, windowHeight/2 - 600];
+        michael = [windowWidth/2 + 300, windowHeight/2 - 480];
+        tala = [windowWidth/2 + 200, windowHeight/2 - 650];
+        lateefa = [windowWidth/2 - 300, windowHeight/2 - 450];
+        alia = [windowWidth/2 - 200, windowHeight/2 - 650];
+        yousra = [windowWidth/2 - 100, windowHeight/2 - 400];
         push()
         if (frameCount%50 == 0){
             adhamDir = !adhamDir;
