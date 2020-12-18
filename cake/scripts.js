@@ -110,7 +110,7 @@ function draw() {
         alia = [windowWidth/2 - 200, windowHeight/2 - 750];
         yousra = [windowWidth/2 - 100, windowHeight/2 - 500];
         push()
-        if (frameCount%70 == 0){
+        if (millis()%2200 == 0){
             adhamDir = !adhamDir;
         }
         translate(adham[0],adham[1]);
@@ -123,7 +123,7 @@ function draw() {
         pop();
         
         push();
-        if (frameCount%50 == 0){
+        if (millis()%1800 == 0){
             nadaDir = !nadaDir;
         }
         translate(nada[0],nada[1]);
@@ -136,7 +136,7 @@ function draw() {
         pop();
 
         push();
-        if (frameCount%30 == 0){
+        if (millis()%1000 == 0){
             sadafDir = !sadafDir;
         }
         translate(sadaf[0],sadaf[1]);
@@ -149,7 +149,7 @@ function draw() {
         pop();
 
         push();
-        if (frameCount%40 == 0){
+        if (millis()%1200 == 0){
             michaelDir = !michaelDir;
         }
 
@@ -163,7 +163,7 @@ function draw() {
         pop();
 
         push();
-        if (frameCount%60 == 0){
+        if (millis()%2000 == 0){
             talaDir = !talaDir;
         }
         translate(tala[0],tala[1]);
@@ -176,7 +176,7 @@ function draw() {
         pop();
 
         push();
-        if (frameCount%45 == 0){
+        if (millis()%1500 == 0){
             lateefaDir = !lateefaDir;
         }
         translate(lateefa[0],lateefa[1]);
@@ -189,7 +189,7 @@ function draw() {
         pop();
 
         push();
-        if (frameCount%55 == 0){
+        if (millis()%1600 == 0){
             aliaDir = !aliaDir;
         }
         translate(alia[0],alia[1]);
@@ -202,7 +202,7 @@ function draw() {
         pop();
         
         push();
-        if (frameCount%65 == 0){
+        if (millis()%2200 == 0){
             yousraDir = !yousraDir;
         }
         translate(yousra[0],yousra[1]);
