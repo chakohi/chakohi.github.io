@@ -13,8 +13,8 @@ function preload() {
 
 let w;
 let cakeLeft = 2;
-let startMode = false;
-let endMode = true;
+let startMode = true;
+let endMode = false;
 let adham;
 let nada;
 let sadaf;
