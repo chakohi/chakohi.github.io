@@ -39,6 +39,7 @@ function setup() {
     shah = new Shah(w, w);
     cake = new Cake(windowWidth / 2, windowHeight / 2 - 50, w / 1.5, w / 1.5);
     start = new Clickable();
+    frameRate(30);
 }
 
 function draw() {
