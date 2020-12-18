@@ -12,7 +12,7 @@ function preload() {
 }
 
 let w;
-let cakeLeft = 2;
+let cakeLeft = 6;
 let startMode = true;
 let endMode = false;
 let adham;
